@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+  .h1Base {
+    position: relative;
+    content: "";
+    visibility: hidden;
+  }
+
+  .h1Base::before{
+    content: "ça a changé";
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    
+  }
+
+}
